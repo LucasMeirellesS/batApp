@@ -26,40 +26,26 @@ Antes de começar, é necessário ter o ambiente de desenvolvimento configurado 
 
 ### Instalar dependências
 
-Após clonar o repositório, instale as dependências do projeto:
-
+## Após clonar o repositório, instale as dependências do projeto:
 npm install
 
-Instalação
+## Instalação
 
-Clone o repositório para sua máquina local:
+### Clone o repositório para sua máquina local:
 git clone https://github.com/usuario/nome-do-repositorio.git
 
-Navegue até o diretório do projeto:
+### Navegue até o diretório do projeto:
 cd nome-do-repositorio
 
-Instale as dependências:
+### Instale as dependências:
 npm install
 
-Para rodar o aplicativo no Android, execute:
+### Para rodar o aplicativo no Android, execute:
 npx react-native run-android
 
+# Tecnologias Utilizadas
+- React Native - Framework para desenvolvimento mobile
+- Styled Components - Para estilização dos componentes
+- React Navigation - Para navegação (caso necessário no projeto futuro)
+- Futuras Melhorias
 
-Tecnologias Utilizadas
-React Native - Framework para desenvolvimento mobile
-Styled Components - Para estilização dos componentes
-React Navigation - Para navegação (caso necessário no projeto futuro)
-Futuras Melhorias
-Este projeto é um protótipo básico e possui várias oportunidades de melhorias, incluindo:
-
-Adicionar mais opções de personalização da senha (incluir símbolos, números, etc.)
-Melhorar a interface com mais interatividade e animações
-Implementar um sistema de copiar a senha gerada para a área de transferência
-Adicionar validações de segurança para a senha gerada (ex: força da senha)
-Implementar um modo noturno inspirado no Batman
-Contribuindo
-Fork o repositório
-Crie uma branch para sua feature: git checkout -b minha-feature
-Faça suas alterações e faça commit: git commit -am 'Adicionando nova feature'
-Envie para o repositório remoto: git push origin minha-feature
-Crie um novo Pull Request
